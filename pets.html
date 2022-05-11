@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Our pets</title>
+  </head>
+  <body>
+    <header class="white-header">
+      <div class="container header-container">
+        <div class="logo">
+          <a href="index.html">
+            <h1 class="logo-title">Cozy House</h1>
+            <p class="logo-subtitle">Shelter for pets in Boston</p></a
+          >
+        </div>
+        <nav class="nav">
+          <div class="logo-nav">
+            <a href="index.html">
+              <h1 class="logo-title">Cozy House</h1>
+              <p class="logo-subtitle">Shelter for pets in Boston</p></a
+            >
+          </div>
+          <div class="nav-list">
+            <a href="index.html" class="nav-link">About the shelter</a>
+            <a href="pets.html" class="active nav-link">Our pets</a>
+            <a href="index.html#help" class="nav-link">Help the shelter</a>
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </div>
+        </nav>
+        <div class="overlay"></div>
+        <input type="checkbox" id="menu_checkbox" />
+        <label for="menu_checkbox">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+        <!-- <button class="btn-mobile-nav">
+          <a href="#">
+            <img
+              src="assets/images/Burger.svg"
+              class="icon icon-mobile-nav hamburger"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="assets/images/Burger-vert.svg"
+              class="icon icon-mobile-nav close"
+            />
+          </a>
+        </button> -->
+      </div>
+    </header>
+
+    <section id="friends">
+      <div class="container">
+        <h3 class="friends">Our friends who<br />are looking for a house</h3>
+        <div class="swiper grid friends-slider">
+          <div class="swiper-wrapper friends-grid">
+            <!-- <div class="friends-grid-item">
+            <div class="slider-image">
+              <img src="assets/images/pets-katrine.png" alt="cat" />
+            </div>
+            <div class="slider-item-text">
+              <h4 class="slider-item-name">Katrine</h4>
+              <a href="#">
+                <button class="btn btn-outline">Learn more</button></a
+              >
+            </div>
+          </div>
+          <div class="friends-grid-item">
+            <div class="slider-image">
+              <img src="assets/images/pets-jennifer.png" alt="cat" />
+            </div>
+            <div class="slider-item-text">
+              <h4 class="slider-item-name">Jennifer</h4>
+              <a href="#">
+                <button class="btn btn-outline">Learn more</button></a
+              >
+            </div>
+          </div>
+          <div class="friends-grid-item">
+            <div class="slider-image">
+              <img src="assets/images/pets-woody.png" alt="cat" />
+            </div>
+            <div class="slider-item-text">
+              <h4 class="slider-item-name">Woody</h4>
+              <a href="#">
+                <button class="btn btn-outline">Learn more</button></a
+              >
+            </div>
+          </div>
+
+          <div class="friends-grid-item slider-item-invisible320">
+            <div class="slider-image">
+              <img src="assets/images/pets-sophia.png" alt="cat" />
+            </div>
+            <div class="slider-item-text">
+              <h4 class="slider-item-name">Sophia</h4>
+              <a href="#">
+                <button class="btn btn-outline">Learn more</button></a
+              >
+            </div>
+          </div>
+          <div class="friends-grid-item slider-item-invisible320">
+            <div class="slider-image">
+              <img src="assets/images/pets-timmy.png" alt="cat" />
+            </div>
+            <div class="slider-item-text">
+              <h4 class="slider-item-name">Timmy</h4>
+              <a href="#">
+                <button class="btn btn-outline">Learn more</button></a
+              >
+            </div>
+          </div>
+          <div class="friends-grid-item slider-item-invisible320">
+            <div class="slider-image">
+              <img src="assets/images/pets-charly.png" alt="cat" />
+            </div>
+            <div class="slider-item-text">
+              <h4 class="slider-item-name">Charly</h4>
+              <a href="#">
+                <button class="btn btn-outline">Learn more</button></a
+              >
+            </div>
+          </div>
+          <div class="friends-grid-item slider-item-invisible">
+            <div class="slider-image">
+              <img src="assets/images/pets-scarlet.png" alt="cat" />
+            </div>
+            <div class="slider-item-text">
+              <h4 class="slider-item-name">Scarlett</h4>
+              <a href="#">
+                <button class="btn btn-outline">Learn more</button></a
+              >
+            </div>
+          </div>
+          <div class="friends-grid-item slider-item-invisible">
+            <div class="slider-image">
+              <img src="assets/images/pets-freddie.png" alt="cat" />
+            </div>
+            <div class="slider-item-text">
+              <h4 class="slider-item-name">Freddie</h4>
+              <a href="#">
+                <button class="btn btn-outline">Learn more</button></a
+              >
+            </div>
+          </div> -->
+          </div>
+          <div class="pagination">
+            <button class="btn btn-round btn-outline to-start"><<</button>
+
+            <button class="btn prev btn-outline btn-round"><</button>
+
+            <button class="btn btn-fill current btn-round"></button>
+
+            <button class="btn next btn-outline btn-round">></button>
+
+            <button class="btn btn-outline btn-round to-end">>></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contacts">
+      <div class="container">
+        <div class="footer-grid">
+          <h3 class="footer-header head1">
+            For questions<br />and suggestions
+          </h3>
+          <a href="mailto:email@shelter.com" class="footer-link mail"
+            ><svg width="40px" ; height="32px">
+              <use xlink:href="assets/images/sprite3.svg#icon-email"></use>
+            </svg>
+            <p class="footer-link-text">email@shelter.com</p></a
+          >
+          <a href="tel:+136745677554" class="footer-link phone"
+            ><svg width="40px" ; height="32px">
+              <use xlink:href="assets/images/sprite3.svg#icon-phone"></use>
+            </svg>
+            <p class="footer-link-text">+13 674 567 75 54</p></a
+          >
+
+          <h3 class="footer-header head2">
+            We are waiting<br />for your visit
+          </h3>
+          <a
+            href="https://goo.gl/maps/P5xiEmNmvZdnoSTs5"
+            class="footer-link pin1"
+            ><svg width="22px" ; height="32px">
+              <use xlink:href="assets/images/sprite3.svg#pin"></use>
+            </svg>
+            <p class="footer-link-text">
+              1 Central Street, Boston<br />(entrance from the store)
+            </p></a
+          >
+          <a
+            href="https://goo.gl/maps/b1QreAUT1N3Q1VsN9"
+            class="footer-link pin2"
+            ><svg width="22px" ; height="32px">
+              <use xlink:href="assets/images/sprite3.svg#pin"></use>
+            </svg>
+            <p class="footer-link-text">18 South Park, London</p></a
+          >
+        </div>
+        <div class="footer-col">
+          <img
+            src="assets/images/footer-puppy.png"
+            alt=""
+            class="footer-image"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+    <script type="module">
+      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+      const currentPage = document.querySelector(".current");
+      const toEnd = document.querySelector(".to-end");
+      const toStart = document.querySelector(".to-start");
+      const swiperPets = new Swiper(".swiper", {
+        observer: true,
+        observeParents: true,
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        spaceBetween: 40,
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+          disabledClass: "btn-disabled",
+        },
+        on: {
+          init: function () {
+            currentPage.innerText = `1`;
+          },
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            grid: {
+              rows: 3,
+              fill: "row",
+            },
+            slidesPerGroup: 1,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+
+            grid: {
+              rows: 3,
+              fill: "row",
+            },
+            slidesPerGroup: 2,
+          },
+          1280: {
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+            spaceBetween: 0,
+            grid: {
+              rows: 2,
+              fill: "row",
+            },
+          },
+        },
+      });
+      toStart.classList.add("btn-disabled");
+      console.log(swiperPets);
+      swiperPets.on("slideChange", () => {
+        currentPage.innerText = `${swiperPets.snapIndex + 1}`;
+        if (swiperPets.snapIndex === 0) {
+          toStart.classList.add("btn-disabled");
+          console.log("swiper");
+        } else if (swiperPets.snapIndex === swiperPets.snapGrid.length - 1) {
+          toEnd.classList.add("btn-disabled");
+        } else {
+          toStart.classList.remove("btn-disabled");
+          toEnd.classList.remove("btn-disabled");
+        }
+      });
+      toStart.addEventListener("click", () => {
+        swiperPets.slideTo(0, 1000);
+        toStart.classList.add("btn-disabled");
+        toEnd.classList.remove("btn-disabled");
+      });
+      toEnd.addEventListener("click", () => {
+        swiperPets.slideTo(swiperPets.slides.length - 1, 1000);
+        toEnd.classList.add("btn-disabled");
+        toStart.classList.remove("btn-disabled");
+      });
+    </script>
+  </body>
+</html>
